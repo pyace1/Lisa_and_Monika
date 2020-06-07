@@ -1,0 +1,57 @@
+/* Paleta boja koje ćemo koristiti na našem sajtu*/
+/* #F26968(RUBY GRAPEFRUIT) #F2AD9F(rosa) #DFE2D2(LIMESTONE) #6CBF84(VENICE) #323339(MOSS RIVER)*/
+
+body{
+	background:#DFE2D2;
+	margin:0;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#header{
+	background:#F26968;
+	color:#323339;
+	text-align:center;
+	padding:5px;
+}
+#nav{
+	background:#F2AD9F;
+	
+	font-size:20px;
+	width:100vw;
+}
+#nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	display:flex;
+}
+#nav li {
+	margin: 0 auto;
+}
+#nav a {
+	text-decoration:none;
+	color:#323339;
+}
+#nav a:hover {
+	background-color:#6CBF84;
+}
+/*promena layout-a za nav bar za sve ekrane koji su siroki ili jednaki 500px*/
+
+@media only screen and (max-width: 500px) {
+  /*prikazivanje elemenata u koloni*/
+  ul{
+    flex-direction: column;
+  }
+  
+  /* briše margine na top ili bottom od a taga*/
+  li{
+    margin: 0;
+  }
+ /* makes sure that the a tag will take the entire screen*/
+  a{
+    display: block;
+  }
+}
+#footer{
+	background:#6CBF84;
+	text-align:center;
+}

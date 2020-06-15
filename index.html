@@ -4,9 +4,16 @@
 			<title>Naša preporuka satova !!!</title>
 			<meta charset="utf-8">
 			<meta name="description" content="Besplatna preporuka ručnih satova">
-			<meta name="keywords" content="Seiko", "Citizen", "Casio", "Orient", "Timex">
+			<!--<meta name="keywords" content="Seiko", "Citizen", "Casio", "Orient", "Timex"> -->
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link rel="stylesheet" href="main.css">
+			<!-- Ako staviš noviji jquery navbar se nece pokazivati u full rezoluciji 
+			     Takodje jquery mora biti postavljen izmedju css-a i naseg navbar.js -->
+			<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+			<script src="scripts/navbar.js"></script>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+			<script src="responsiveslides.min.js"></script>
+			
 		</head>
 		<body id="body">
 			<header id="header">
@@ -16,6 +23,8 @@
 			</header>
 			<nav id="nav">
 				<ul>
+					<!-- button here -->
+					<button> 🞬 </button>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">O nama</a></li>
 					<li><a href="#">Naše preporuke</a></li>
@@ -23,8 +32,86 @@
 					<li><a href="#">Kontaktirajte nas</a></li>
 				</ul>
 			</nav>
+			<section id="o_nama">
+				<p>Još 2017 godine se rodila ideja da pomažemo prijateljima i poznanicima u odabiru 
+				kvalitetnog ručnog sata, posebno medju muškom populacijom. Iako i tada kao relativni 
+				početnici u ovom svetu horologije, već smo tad imali pozitivan feedback na naš consulting. 
+				Kako se krug poznanstava širio vremenom, tako je i potreba postajala sve veća. Tako da 
+				posle par godina iskustava smo rešili da napravimo jednu interesantnu sveobuhvatnu stranicu 
+				sa interesantnim savetima pri odabiru kvalitetnog muškog ručnog sata, prilagodjenog za 
+				svačiji džep. Nadamo se da će Vam naši saveti biti od pomoći. Pišite nam na e-mail i 
+				ostavite Vaše komentare i sugestije. Sa poštovanjem Vaša Lisa i Monika ! 
+				</p>
+			</section>
+			<section id="slajder">
+				<ul class="rslides">
+				  <li><img src="1.jpg" alt=""></li>
+				  <li><img src="2.jpg" alt=""></li>
+				  <li><img src="3.jpg" alt=""></li>
+				</ul>
+			</section>
+			<section id="nase_preporuke">
+				<div class="container">
+					<div class="sat-1">
+					<img src="timex_expedition_scout_chrono.jpeg" alt="Timex Expedition Scout Chronograph">
+					<p><u>Timex Scout</u> <br><br>Američki brend sklapan u Maleziji po zahtevima američkog domaćeg tržišta. Brend sa jakim istorijskim nasledjem ,
+					dizajn prevashodno okrenut "field" i starim vojnim satovima. Prepoznatljiv po svom Indiglo pozadinskom osvetljenju, 
+					sto ga stavlja u sam vrh praktičnih satova. Veoma atraktivni vintage dizajn u američkom stilu ga čini jako primamljivim.</p>
+					</div>
+					<div class="sat-2">Sat 2</div>
+					<div class="sat-3">Sat 3</div>
+					<div class="sat-4">
+					<img src="citizen_promaster.jpg" alt="Citizen ProMaster" style="width:200px;">
+					<p><u>Citizen ProMaster</u> <br><br> Citizen Pro Master je trenutno najjeftiniji sertifikovani ronilački 
+					sat. Naslednik legendarnog Marina Militare Citizen automatika samo sa savremenom solarnom 
+					eco-drive tehnologijom. Vrlo praktičan i robustan sat sa odličnim 
+					osvetljenjem, odličnom izradom kućišta i pravih 200m vodonepropustnosti, 
+					čini ovaj sat pravim ronilačkim izborom.</p>
+					</div>
+					<div class="sat-5">
+					<img src="citizen_nighthawk.jpg" alt="Citizen Nighthawk">
+					<p><u>Citizen Nighthawk</u> <br><br> Godinama best-buy pilotski sat. Nighthawk je opremljen savremenom 
+					eco-drive tehnologijom, GMT funkcijom, rotirajući unutrašnji prsten koji Vam može pomoći pri merenju 
+					raznih stvari. Unikatan dizajn i savršen kvalitet izrade krase ovaj sat, kao i velika vodonepropustnost 
+					kao na ronilačkim satovima.</p>
+					</div>
+					<div class="sat-6">
+					<img src="orient_kamasu.jpg" alt="Orient Kamasu Limited Edition">
+					<p><u>Orient Kamasu</u> <br><br> Vrhunski japanski ronilački sat za svaku priliku. Decenijama 
+					sakriven iz Seiko konglomerata, ova sestrinska kompanija ništa ne zaostaje za svojim velikim bratom. 
+					Kompanija koja uspešno razvija samostalno svoje mehanizme decenijama, oduvek je bila odličan izbor 
+					odnosa cene i kvaliteta. Kamasu na japanskom znači "barakuda" i ovaj sat je to u pravom smislu reči. </p>
+					</div>
+					<div class="sat-7">
+					<img src="orient_bambino_mk4.jpg" alt="Orient Bambino">
+					<p><u>Orient Bambino</u> <br><br> Popularna serija Bambino ne prestaje da oduševljava javnost. 
+					Godinama su izlazile generacije sa različitim prečnicima kućišta i dezena brojčanika, tako da svako 
+					danas može sebi naći dobar "izlazni sat" za pristojnu količinu novca. Poslednja generacija ima zasebnu 
+					malu sekundaru kao na starim satovima.</p>
+					</div>
+					<div class="sat-8">
+					<img src="vostok.jpg" alt="Vostok Amphibia">
+					<p><u>Vostok Amphibia</u> <br><br> Ruski tenk u svetu satova. Napravljen za vreme 60tih, 
+					da bude jeftin praktican i funkcionalan. Njegov dizajn Vas moze pogrešno zavarati, Vostok 
+					je pouzdan, dizajniran za vojne svrhe, pun inventivnih rešenja, omiljen u svetu onih koji 
+					vole modifikovane satove. Jednom rečju pravu vuk u jagnjećoj koži. Direktan predstavnik 
+					Vostok satova je <a href="https://meranom.com/en/" target="_blank">Meranom</a>.</p>
+					</div>
+				</div>
+			</section>
+			<section id="kontaktirajte_nas">
+				
+			</section>
 			<footer id="footer">
 				&copy Aleksandar Tomović 2020
 			</footer>
+			<!-- Go to www.addthis.com/dashboard to customize your tools 
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5edeea3099784c58"></script>
+			-->
+			<script>
+			  $(function() {
+				$(".rslides").responsiveSlides();
+			  });
+			</script>
 		</body>
 	</html>

@@ -3,14 +3,16 @@
 
 body{
 	background:#DFE2D2;
-	margin:0;
+	margin:0 auto;
 	font-family:"Comic Sans MS", cursive, sans-serif;
+	
 }
 #header{
 	background:#F26968;
 	color:#323339;
 	text-align:center;
 	padding:5px;
+	display:block;
 }
 #nav{
 	background:#F2AD9F;
@@ -34,6 +36,12 @@ body{
 #nav a:hover {
 	background-color:#6CBF84;
 }
+button {
+	display:none;
+	cursor: pointer;
+	align-self: flex-start;
+}
+
 /*promena layout-a za nav bar za sve ekrane koji su siroki ili jednaki 500px*/
 
 @media only screen and (max-width: 500px) {
@@ -50,7 +58,136 @@ body{
   a{
     display: block;
   }
+
+  button{
+    /*dugme je opet vidljivo*/
+    display: block;
+	padding: 2vw;
+    font-size: 3vh;
+    background-color: #F2AD9F;
+    border: none;
+    /*outline none removes the default blue border that appears anytime you click on the button*/
+    outline: none;
+	cursor: pointer;
+	align-self: flex-start;
+  }
 }
+#o_nama{
+	margin: 2vw;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  /*flex-box*/
+.container{
+	margin:10px;
+	padding:10px;
+	background-color:#F2AD9F;
+	display: flex;
+	flex-flow: row wrap;
+}
+.sat-1{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-1 img{
+	float:left;
+	margin-right:10px;
+}
+.sat-2{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-3{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-4{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-4 img{
+	float:left;
+	margin-right:10px;
+}
+.sat-5{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-5 img{
+	float:left;
+	margin-right:10px;
+}
+.sat-6{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-6 img{
+	float:left;
+	margin-right:10px;
+}
+.sat-7{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-7 img{
+	float:left;
+	margin-right:10px;
+}
+.sat-8{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+	
+}
+.sat-8 img{
+	float:left;
+	margin-right:10px;
+}
+
 #footer{
 	background:#6CBF84;
 	text-align:center;

@@ -79,7 +79,7 @@ button {
   position: relative;
   list-style: none;
   overflow: hidden;
-  width: 100%;
+  width: 100vw;
   padding: 0;
   margin: 0;
   }
@@ -88,7 +88,7 @@ button {
   -webkit-backface-visibility: hidden;
   position: absolute;
   display: none;
-  width: 100%;
+  width: 100vw;
   left: 0;
   top: 0;
   }
@@ -103,7 +103,7 @@ button {
   display: block;
   height: auto;
   float: left;
-  width: 100%;
+  width: 100vw;
   border: 0;
   }
   /*flex-box*/
@@ -123,6 +123,7 @@ button {
 .sat-1 img{
 	float:left;
 	margin-right:10px;
+	width:200px;
 }
 .sat-2{
 	width:315px;
@@ -130,11 +131,21 @@ button {
 	margin:5px;
 	border:solid #6CBF84 1px;
 }
+.sat-2 img{
+	float:left;
+	margin-right:10px;
+	width:200px;
+}
 .sat-3{
 	width:315px;
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+}
+.sat-3 img{
+	float:left;
+	margin-right:10px;
+	width:200px;
 }
 .sat-4{
 	width:315px;
@@ -155,6 +166,7 @@ button {
 .sat-5 img{
 	float:left;
 	margin-right:10px;
+	width:200px;
 }
 .sat-6{
 	width:315px;
@@ -175,17 +187,61 @@ button {
 .sat-7 img{
 	float:left;
 	margin-right:10px;
+	width:200px;
 }
 .sat-8{
 	width:315px;
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
-	
 }
 .sat-8 img{
 	float:left;
 	margin-right:10px;
+}
+.sat-9{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-9 img{
+	float:left;
+	margin-right:10px;
+	width:200px;
+}
+.sat-10{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-10 img{
+	float:left;
+	margin-right:10px;
+	width:200px;
+}
+.sat-11{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-11 img{
+	float:left;
+	margin-right:10px;
+	width:200px;
+}
+.sat-12{
+	width:315px;
+	height:400px;
+	margin:5px;
+	border:solid #6CBF84 1px;
+}
+.sat-12 img{
+	float:left;
+	margin-right:10px;
+	width:200px;
 }
 
 #footer{

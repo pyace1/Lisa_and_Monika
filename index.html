@@ -11,8 +11,10 @@
 			     Takodje jquery mora biti postavljen izmedju css-a i naseg navbar.js -->
 			<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
 			<script src="scripts/navbar.js"></script>
-			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-			<script src="responsiveslides.min.js"></script>
+			<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  -->
+			<script src="scripts/slippry.min.js"></script>
+			<link rel="stylesheet" href="slippry.css" />
 			
 		</head>
 		<body id="body">
@@ -44,10 +46,16 @@
 				</p>
 			</section>
 			<section id="slajder">
-				<ul class="rslides">
-				  <li><img src="1.jpg" alt=""></li>
-				  <li><img src="2.jpg" alt=""></li>
-				  <li><img src="3.jpg" alt=""></li>
+				<ul id="slippry-demo">
+				  <li>
+					<a href="#slide1"><img src="1.jpg" alt="prvi set"></a>
+				  </li>
+				  <li>
+					<a href="#slide2"><img src="2.jpg"  alt="drugi set"></a>
+				  </li>
+				  <li>
+					<a href="#slide3"><img src="3.jpg" alt="treci set"></a>
+				  </li>
 				</ul>
 			</section>
 			<section id="nase_preporuke">
@@ -146,9 +154,9 @@
 			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5edeea3099784c58"></script>
 			-->
 			<script>
-			  $(function() {
-				$(".rslides").responsiveSlides();
-			  });
+				jQuery(document).ready(function(){
+				  jQuery('#slippry-demo').slippry()     <!-- greska usrana taraba, ne prepoznaje ID -->
+				});
 			</script>
 		</body>
 	</html>

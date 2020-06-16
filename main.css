@@ -75,37 +75,7 @@ button {
 #o_nama{
 	margin: 2vw;
 }
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100vw;
-  padding: 0;
-  margin: 0;
-  }
 
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100vw;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100vw;
-  border: 0;
-  }
   /*flex-box*/
 .container{
 	margin:10px;

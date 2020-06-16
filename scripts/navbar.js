@@ -11,7 +11,7 @@ $(document).ready(function(){
       }
     
     /* this function toggle the visibility of our "li" elements */
-    $("li").toggle("slow");
+    $("#nav ul li").toggle("slow");
   });
 });
 

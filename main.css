@@ -5,7 +5,6 @@ body{
 	background:#DFE2D2;
 	margin:0 auto;
 	font-family:"Comic Sans MS", cursive, sans-serif;
-	
 }
 #header{
 	background:#F26968;
@@ -16,9 +15,8 @@ body{
 }
 #nav{
 	background:#F2AD9F;
-	
 	font-size:20px;
-	width:100vw;
+	width:100vw;        /*jebote koje stelovanje širine*/
 }
 #nav ul {
 	list-style-type:none;
@@ -43,7 +41,6 @@ button {
 }
 
 /*promena layout-a za nav bar za sve ekrane koji su siroki ili jednaki 500px*/
-
 @media only screen and (max-width: 500px) {
   /*prikazivanje elemenata u koloni*/
   ul{
@@ -85,151 +82,23 @@ button {
 	display: flex;
 	flex-flow: row wrap;
 }
-.sat-1{
+.sat{
 	width:315px;
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
 	border-radius: 4px;
 }
-.sat-1 img{
+.sat img{
 	float:left;
 	margin-right:10px;
 	width:200px;
 }
-.sat-2{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-2 img{
-	float:left;
-	margin-right:10px;
-	width:200px;
-}
-.sat-3{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-3 img{
-	float:left;
-	margin-right:10px;
-	width:200px;
-}
-.sat-4{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-4 img{
-	float:left;
-	margin-right:10px;
-}
-.sat-5{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-5 img{
-	float:left;
-	margin-right:10px;
-	width:200px;
-}
-.sat-6{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-6 img{
-	float:left;
-	margin-right:10px;
-}
-.sat-7{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-7 img{
-	float:left;
-	margin-right:10px;
-	width:200px;
-}
-.sat-8{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-8 img{
-	float:left;
-	margin-right:10px;
-}
-.sat-9{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-9 img{
-	float:left;
-	margin-right:10px;
-	width:200px;
-}
-.sat-10{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-10 img{
-	float:left;
-	margin-right:10px;
-	width:200px;
-}
-.sat-11{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-11 img{
-	float:left;
-	margin-right:10px;
-	width:200px;
-}
-.sat-12{
-	width:315px;
-	height:400px;
-	margin:5px;
-	border:solid #6CBF84 1px;
-	border-radius: 4px;
-}
-.sat-12 img{
-	float:left;
-	margin-right:10px;
-	width:200px;
-}
-/* Style inputs, select elements and textareas */
+
+/* Forma Style inputs, select elements and textareas */
 input[type=text], select, textarea{
   width: 100%;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #6CBF84;
   border-radius: 4px;
   box-sizing: border-box;

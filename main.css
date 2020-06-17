@@ -71,6 +71,7 @@ button {
 	cursor: pointer;
 	align-self: flex-start;
   }
+  
 }
 #o_nama{
 	margin: 2vw;
@@ -89,6 +90,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-1 img{
 	float:left;
@@ -100,6 +102,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-2 img{
 	float:left;
@@ -111,6 +114,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-3 img{
 	float:left;
@@ -122,6 +126,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-4 img{
 	float:left;
@@ -132,6 +137,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-5 img{
 	float:left;
@@ -143,6 +149,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-6 img{
 	float:left;
@@ -153,6 +160,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-7 img{
 	float:left;
@@ -164,6 +172,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-8 img{
 	float:left;
@@ -174,6 +183,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-9 img{
 	float:left;
@@ -185,6 +195,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-10 img{
 	float:left;
@@ -196,6 +207,7 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-11 img{
 	float:left;
@@ -207,14 +219,68 @@ button {
 	height:400px;
 	margin:5px;
 	border:solid #6CBF84 1px;
+	border-radius: 4px;
 }
 .sat-12 img{
 	float:left;
 	margin-right:10px;
 	width:200px;
 }
-
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #6CBF84;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+/* Style the submit button */
+input[type=submit] {
+  background-color: #6CBF84;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 4px;
+}
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 4px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
 #footer{
 	background:#6CBF84;
 	text-align:center;
+}
+#footer a{
+	text-decoration:none;
+	color:black;
 }
